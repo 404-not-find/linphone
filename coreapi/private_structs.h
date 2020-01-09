@@ -842,7 +842,8 @@ namespace LinphonePrivate {
 	int auto_download_incoming_files_max_size; \
 	bool_t sender_name_hidden_in_forward_message; \
 	bool_t is_main_core; \
-	bool_t has_already_started_once;
+	bool_t has_already_started_once; \
+	bool_t send_imdn_if_unregistered;
 
 #define LINPHONE_CORE_STRUCT_FIELDS \
 	LINPHONE_CORE_STRUCT_BASE_FIELDS \
